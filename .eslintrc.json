@@ -1,0 +1,16 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+  "no-unused-vars": "warn",
+  "no-unused-expressions": "warn",
+  "no-unused-labels": "warn",
+  "no-useless-return": "warn",
+  "no-warning-comments": [
+      "warn", 
+      {
+        "terms": ["todo", "fixme"],
+        "location": "start" // "anywhere" to match anywhere in comments
+      }
+    ]
+}
+}
